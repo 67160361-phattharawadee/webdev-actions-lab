@@ -3,15 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Pages Lab</title>
+  <title>Phattharawadee | Web Dev Lab</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="card">
-    <h1>My Web Development Lab</h1>
-    <p>ชื่อ: Phattharawadee Chokwisitkul | รหัสนิสิต: 67160361</p>
-    <p id="status">Ready to deploy</p>
-    <button id="helloBtn">Say Hello</button>
+    <header>
+      <h1>Phattharawadee's Web Lab</h1>
+      <p>ชื่อ: Phattharawadee Chokwisitkul | รหัสนิสิต: 67160361</p>
+      <p id="status">ยินดีต้อนรับสู่เว็บไซต์ของฉัน 👋</p>
+      <div class="actions">
+        <button id="helloBtn">Say Hello</button>
+        <button id="themeBtn" class="secondary">🌙 Dark mode</button>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>สวัสดีค่ะ ฉันเป็นนิสิตที่กำลังเรียนวิชา Web Development
+        สนใจการสร้างเว็บไซต์และการทำ CI/CD ให้ระบบ deploy ได้อัตโนมัติ</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+        <li>GitHub Actions</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>GitHub: <a href="https://github.com/67160361-phattharawadee" target="_blank" rel="noopener">67160361-phattharawadee</a></p>
+    </section>
   </main>
   <script src="script.js"></script>
 </body>
